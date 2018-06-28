@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+	
+<!-- 
+	
+/**
+ * JITR V0.3
+ **/
+ 
+ -->
+	
+  <head>
+    <meta charset="utf-8">
+  
+    <title>JIT - Journalism Investigative Table 0.3 - Friction Less Working</title>
+  
+  	<link rel="stylesheet" href="style.css">
+	<script src="data-jsfied.js"></script>  
+	<script src="script.js"></script>  
+  
+  </head>
+  <body onload="javascript: JLPageCreateIcons(); focusOnInput();"> <!-- Link to Function creating Icons-->
+  	<form name="JLSmartForm" action="javascript: JL_default_submit()"> <!-- This is for default submission by pressing enter-->
+  		<h1>JIT Cockpit</h1>
+		  <div class="question">
+     		<input type="text" class="maintextfeld" autofocus size="50" name="JCTextTypeBox" 
+     		onkeypress="javascript: if (event.keyCode==13) JL_default_submit(this, event)">
+     		<label class="whattosearch">Search *</label>
+		  </div>
+  		 <!-- the keyCode may or may not work. Its for cross browser compatibility--> <br />
+  		<input type="checkbox" name="JLnewpage" value="gonewpage" checked> Neues Fenster
+	</form>
+    
+    <div id="JLiconlinkset">
+     Java Script not Working
+	</div>
+	
+  </body>
+
+  
+</html>
